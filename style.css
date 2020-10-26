@@ -1,0 +1,42 @@
+body {
+  background: #68b0ab;
+}
+
+.main-heading {
+  color: #ecf4f3;
+  font-family: "Pacifico", cursive;
+}
+
+.timer {
+  color: #ecf4f3;
+  text-align: center;
+  width: 30rem;
+  height: 30rem;
+  border: 3px solid #fff;
+  border-radius: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.fa-play,
+.fa-redo-alt {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.showMessage {
+  margin-top: 10px;
+  margin-bottom: -50px;
+  display: block;
+  padding: 1rem 0;
+  color: #fff;
+  background-color: #006a71;
+  transition: 0.3s ease;
+}
